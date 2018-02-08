@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed on yoshicode</title>
+    <link>https://yoshicode.github.io/fixed/</link>
+    <description>Recent content in Fixed on yoshicode</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 08 Feb 2018 22:32:48 +0900</lastBuildDate>
+    
+	<atom:link href="https://yoshicode.github.io/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://yoshicode.github.io/fixed/about/</link>
+      <pubDate>Thu, 08 Feb 2018 22:32:48 +0900</pubDate>
+      
+      <guid>https://yoshicode.github.io/fixed/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

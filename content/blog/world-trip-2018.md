@@ -49,5 +49,10 @@ draft: true
 他にもエストニア、シリコンバレーの情報を中心に情報を見聞きすることが多くなったと思います。
 
 
+トビタテの事務局内でプレゼンをしました。  
+今回の世界周遊では多くのトビタテ生に情報を教えてもらったり、現地で会ったりとしたのでその報告も含めての報告です。
+<blockquote class="twitter-tweet" data-lang="ja" data-align="center"><p lang="ja" dir="ltr">事務局で世界一周プレゼンしました。 <a href="https://t.co/DnmGPM3ure">pic.twitter.com/DnmGPM3ure</a></p>&mdash; 高柴慶人 (@yoshicode) <a href="https://twitter.com/yoshicode/status/974889216533393409?ref_src=twsrc%5Etfw">2018年3月17日</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-今回の周遊を支援してくださった東音企画には感謝です。
+
+
+今回の周遊を支援してくださった[東音企画](http://www.to-on.com/)には感謝です。

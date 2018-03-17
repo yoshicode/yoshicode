@@ -6,19 +6,9 @@
     <description>Recent content on yoshicode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 08 Feb 2018 22:11:57 +0900</lastBuildDate>
     
 	<atom:link href="http://yoshicode.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Your New Post</title>
-      <link>http://yoshicode.com/blog/your-new-post/</link>
-      <pubDate>Thu, 08 Feb 2018 22:11:57 +0900</pubDate>
-      
-      <guid>http://yoshicode.com/blog/your-new-post/</guid>
-      <description>test</description>
-    </item>
     
   </channel>
 </rss>

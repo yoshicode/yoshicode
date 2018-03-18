@@ -1,4 +1,4 @@
-baseurl             = "http://yoshicode.com/"
+baseurl             = "https://yoshicode.com/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"

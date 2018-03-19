@@ -6,10 +6,25 @@
     <description>Recent content on yoshicode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 17 Mar 2018 12:52:48 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Mar 2018 21:27:00 +0900</lastBuildDate>
     
 	<atom:link href="https://yoshicode.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build a new blog for free with free SSL certificate.</title>
+      <link>https://yoshicode.com/en/free-blog/</link>
+      <pubDate>Mon, 19 Mar 2018 21:27:00 +0900</pubDate>
+      
+      <guid>https://yoshicode.com/en/free-blog/</guid>
+      <description>This blog was basically built with Github page, but it has some problems.
+Despite you can build your static website in few minutes using Github page, it lacks functionality such as TSL/SSL communication and force SSL for that. I am using netlify instead to solve those problems.
+I&amp;rsquo;m going to explain how you build free SSL blog here.
+What you will use are:
+- Hugo
+- Github
+- Netlify</description>
+    </item>
     
     <item>
       <title>１ヶ月の世界周遊を終えて</title>

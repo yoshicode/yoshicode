@@ -22,11 +22,17 @@ weight                 = -120
 identifier             = "blog"
 url                    = "/blog/"
 
-# [[menu.main]]
-# name                   = "About"
-# weight                 = -110
-# identifier             = "about"
-# url                    = "/about/"
+[[menu.main]]
+name                   = "English blog"
+weight                 = -120
+identifier             = "en"
+url                    = "/en/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
 
 [[menu.main]]
 name                   = "Code"

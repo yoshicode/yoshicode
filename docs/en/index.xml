@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>En on yoshicode</title>
+    <title>English blog on yoshicode</title>
     <link>https://yoshicode.com/en/</link>
-    <description>Recent content in En on yoshicode</description>
+    <description>Recent content in English blog on yoshicode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 19 Mar 2018 21:27:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 Mar 2018 21:42:56 +0900</lastBuildDate>
     
 	<atom:link href="https://yoshicode.com/en/index.xml" rel="self" type="application/rss+xml" />
     

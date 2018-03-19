@@ -1,7 +1,7 @@
 
 #### Add Some Content
 
-    $ hugo new posts/my-first-post.md
+    $ hugo new blog/my-first-post.md
     
 Edit the newly created content file if you want. Now, start the Hugo server with drafts enabled:    
 

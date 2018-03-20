@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Build a CMS for free</title>
+      <link>https://yoshicode.com/en/netlify-cms/</link>
+      <pubDate>Tue, 20 Mar 2018 20:54:34 +0900</pubDate>
+      
+      <guid>https://yoshicode.com/en/netlify-cms/</guid>
+      <description>As I posted a blog Build a new blog for free with free SSL certificate., it is easy to build a blog site for free. But it has still disadvantage that need to know Git and markdown.
+So you cannot chose this way to build it if you are building a blog site for non-engineer.
+I&amp;rsquo;m sharing new method to build a CMS (Content Management System) for free with SSL/TLS connection within 30 mins.</description>
+    </item>
+    
+    <item>
       <title>Build a new blog for free with free SSL certificate.</title>
       <link>https://yoshicode.com/en/free-blog/</link>
       <pubDate>Mon, 19 Mar 2018 21:27:00 +0900</pubDate>

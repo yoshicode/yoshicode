@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Yoshi Takashiba">
+<meta name="description" content="As I posted a blog Build a new blog for free with free SSL certificate., it is easy to build a blog site for free. But it has still disadvantage that need to know Git and markdown.
+So you cannot chose this way to build it if you are building a blog site for non-engineer.
+I&rsquo;m sharing new method to build a CMS (Content Management System) for free with SSL/TLS connection within 30 mins.">
+
+<meta property="og:title" content="Build a CMS for free" />
+<meta property="og:description" content="As I posted a blog Build a new blog for free with free SSL certificate., it is easy to build a blog site for free. But it has still disadvantage that need to know Git and markdown.
+So you cannot chose this way to build it if you are building a blog site for non-engineer.
+I&rsquo;m sharing new method to build a CMS (Content Management System) for free with SSL/TLS connection within 30 mins." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yoshicode.com/en/netlify-cms/" />
+
+
+
+<meta property="article:published_time" content="2018-03-20T20:54:34&#43;09:00"/>
+
+<meta property="article:modified_time" content="2018-03-20T20:54:34&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     Build a CMS for free 
+
+</title>
+<link rel="canonical" href="https://yoshicode.com/en/netlify-cms/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="https://yoshicode.com/css/reset.css?t=2018-03-20%2022%3a44%3a54.143406%20%2b0900%20JST%20m%3d%2b0.070307292">
+    <link rel="stylesheet" href="https://yoshicode.com/css/pygments.css?t=2018-03-20%2022%3a44%3a54.143406%20%2b0900%20JST%20m%3d%2b0.070307292">
+    <link rel="stylesheet" href="https://yoshicode.com/css/main.css?t=2018-03-20%2022%3a44%3a54.143406%20%2b0900%20JST%20m%3d%2b0.070307292">
+    
+        <link rel="stylesheet" href="https://yoshicode.com/css/override.css?t=2018-03-20%2022%3a44%3a54.143406%20%2b0900%20JST%20m%3d%2b0.070307292">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://yoshicode.com/img/leaf.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+                <a href="https://yoshicode.com/"><img class="avatar" src="https://yoshicode.com/img/profile.jpg" srcset="https://yoshicode.com/img/profile.jpg 1x"></a>
+            
+            <a href="https://yoshicode.com/"><div class="name">Yoshi Takashiba</div></a>
+            
+              <h3 class="self-intro">Discover new world with childlike curiosity.</h3>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://yoshicode.com/blog/"><span>Blog</span></a></li>
+                    
+                        <li class="nav-en"><a href="https://yoshicode.com/en/"><span>English blog</span></a></li>
+                    
+                        <li class="nav-about"><a href="https://yoshicode.com/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-code"><a href="https://github.com/yoshicode"><span>Code</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+        
+            <a href="//github.com/yoshicode" target="_blank" rel="noopener"><img class="icon" src="https://yoshicode.com/img/github.svg" alt="github" /></a>
+        
+
+        
+            <a href="//twitter.com/yoshicode" target="_blank" rel="noopener"><img class="icon" src="https://yoshicode.com/img/twitter.svg" alt="twitter" /></a>
+        
+
+	
+
+        
+
+        
+
+        
+            <a href="//linkedin.com/in/yoshicode" target="_blank" rel="noopener"><img class="icon" src="https://yoshicode.com/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+            <a href="//instagram.com/yoshicode" target="_blank" rel="noopener"><img class="icon" src="https://yoshicode.com/img/instagram.svg" alt="instagram" /></a>
+        
+
+        
+
+        
+
+        
+            <a href="mailto:yoshihito522@gmail.com"><img class="icon" src="https://yoshicode.com/img/email.svg" alt="email" /></a>
+        
+
+        
+
+        
+        </div>
+    </div>
+</section>
+
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">
+
+    Build a CMS for free
+
+</div>
+
+            <div class="markdown">
+                
+
+<p>As I posted a blog <a href="https://yoshicode.com/en/free-blog/">Build a new blog for free with free SSL certificate.</a>,
+it is easy to build a blog site for free. But it has still disadvantage that need to know Git and markdown.<br />
+So you cannot chose this way to build it if you are building a blog site for non-engineer.</p>
+
+<p>I&rsquo;m sharing new method to build a CMS (Content Management System) for free with SSL/TLS connection within 30 mins.</p>
+
+<h2 id="what-do-we-use">What do we use?</h2>
+
+<p>We are going to use those services:
+- <a href="https://jekyllrb.com/">Jekyll</a><br />
+- <a href="https://www.netlify.com/">Netlify</a><br />
+- <a href="https://www.netlifycms.org/">Netlify CMS</a></p>
+
+<p>Using Netlify, you will get many pros:
+ - Distribute with Netlify CDN
+ - Deploy atomatically from GitHub
+ - Support HTTP/2
+ - Set your custom domain.
+ - Support Let&rsquo;s Encrypt</p>
+
+<p>Of course you would get more advantage using wordpress, but is it really so?
+It is going to be hassle to setup Database and VPS, upgrading wordpress version and considering security things.</p>
+
+<h2 id="let-s-get-started">Let&rsquo;s get started</h2>
+
+<p><strong>1, Install Jekyll and build a new blog.</strong></p>
+
+<pre><code class="language-bash">$ gem install jekyll
+$ jekyll new your_blog
+</code></pre>
+
+<p>After building new site, push to Github.</p>
+
+<p><strong>2, Deploy to Netlify.</strong></p>
+
+<p>Access to <a href="https://app.netlify.com/">Netlify</a> and push <code>New site from Git</code>.
+Select one you deploy just before, and you see those environment settings.</p>
+
+<pre><code class="language-$xslt">Branch to Deploy: master
+Build command: jekyll build
+Publish directory: _site
+</code></pre>
+
+<p>And just deploy it. Easy-peacy :D</p>
+
+<p><strong>3, Custom domain and SSL setting.</strong></p>
+
+<p>Just setup though Netlify dashboard.</p>
+
+<p><strong>4, Install Netlify CMS</strong></p>
+
+<p>You need to create admin folder under path.</p>
+
+<pre><code class="language-bash">$ touch admin/index.html
+$ touch admin/config.yml
+</code></pre>
+
+<p>And edit those files with basic HTML code.</p>
+
+<pre><code class="language-html"># index.html
+
+&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;title&gt;Content Manager&lt;/title&gt;
+
+  &lt;!-- Include the styles for the Netlify CMS UI, after your own styles --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/netlify-cms@^0.7.0/dist/cms.css&quot; /&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Include the script that builds the page and powers Netlify CMS --&gt;
+  &lt;script src=&quot;https://unpkg.com/netlify-cms@^0.7.0/dist/cms.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<pre><code class="language-yaml"># confit.yml
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow # Editorial Workflow
+
+media_folder: &quot;images/uploads&quot; # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: &quot;post&quot; # Used in routes, e.g. /admin/collections/blog
+    label: &quot;Post&quot; # Used in the UI
+    folder: &quot;_posts&quot; # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: &quot;{{year}}-{{month}}-{{day}}-{{slug}}&quot; # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: &quot;Layout&quot;, name: &quot;layout&quot;, widget: &quot;hidden&quot;, default: &quot;post&quot;}
+      - {label: &quot;Title&quot;, name: &quot;title&quot;, widget: &quot;string&quot;}
+      - {label: &quot;Body&quot;, name: &quot;body&quot;, widget: &quot;markdown&quot;}
+</code></pre>
+
+<p><strong>5, Setting Identify</strong></p>
+
+<p>Go <code>Setting &gt; Identity configuration</code> and set <code>Registration preferences</code> to <code>Invite only</code>
+And set <code>External providers</code> to <code>GitHub</code>, and enable <code>Git Gateway</code>.</p>
+
+<p>Go <code>Build &amp; Deploy &gt; Post processing &gt; Snippet injection</code>
+<code>Add snipet</code> and insert this code.</p>
+
+<pre><code class="language-html">&lt;script src=&quot;https://identity.netlify.com/v1/netlify-identity-widget.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<h2 id="check-if-it-is-working">Check if it is working</h2>
+
+<p>Open <code>https://brabra-brabra-123abc.netlify.com/admin/</code> in your browser.</p>
+
+<p>It is all set If you can login and post new posts.</p>
+
+<h2 id="to-edit-your-layout">To edit your layout</h2>
+
+<p>You have <a href="https://github.com/jekyll/minima">minima</a> template by default to your environment.<br />
+To edit your layouts, you can override it.</p>
+
+<p><a href="https://github.com/jekyll/minima#customization">Customization</a> is available.
+For example, follow this command to edit post layout.</p>
+
+<pre><code class="language-bash">$ touch _layouts/page.html
+</code></pre>
+
+<pre><code class="language-html">---
+layout: default
+---
+&lt;article class=&quot;post&quot;&gt;
+
+  &lt;header class=&quot;post-header&quot;&gt;
+    &lt;h1 class=&quot;post-title&quot;&gt;{{ page.title | escape }}&lt;/h1&gt;
+  &lt;/header&gt;
+
+  &lt;div class=&quot;post-content&quot;&gt;
+    {{ content }}
+  &lt;/div&gt;
+
+&lt;/article&gt;
+</code></pre>
+
+<p>this code came from <a href="https://github.com/jekyll/minima/blob/master/_layouts/page.html">here</a>.
+Change that code as you want.</p>
+
+<p>more info: <a href="https://jekyllrb.com/docs/themes/">https://jekyllrb.com/docs/themes/</a></p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-51810510-15', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+

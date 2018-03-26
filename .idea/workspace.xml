@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/content/blog/food-loss.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <first_editor relative-caret-position="300">
+                <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -31,7 +31,11 @@
     <findStrings>
       <find>rss</find>
       <find>highlightjs            = true</find>
+      <find>,</find>
     </findStrings>
+    <replaceStrings>
+      <replace>、</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/hugo-future-imperfect" />
@@ -729,12 +733,12 @@
       <workItem from="1521258545410" duration="1554000" />
       <workItem from="1521510829346" duration="219000" />
       <workItem from="1521546698095" duration="4834000" />
-      <workItem from="1522041733204" duration="2642000" />
+      <workItem from="1522041733204" duration="4424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18819000" />
+    <option name="totallyTimeSpent" value="20601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-216" width="1920" height="1080" extended-state="0" />
@@ -1035,8 +1039,8 @@
     <entry file="file://$PROJECT_DIR$/content/blog/food-loss.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <first_editor relative-caret-position="300">
+            <caret line="63" column="26" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />

@@ -11,21 +11,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="food-loss.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/blog/food-loss.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="366">
-                <caret line="148" column="25" lean-forward="false" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -52,17 +38,17 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/content/blog/your-new-post.md" />
         <option value="$PROJECT_DIR$/.gitmodules" />
-        <option value="$PROJECT_DIR$/content/blog/world-trip-2018.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/content/blog/free-blog.md" />
         <option value="$PROJECT_DIR$/layouts/robots.txt" />
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/content/en/_index.md" />
-        <option value="$PROJECT_DIR$/content/en/free-blog.md" />
-        <option value="$PROJECT_DIR$/content/en/netlify-cms.md" />
         <option value="$PROJECT_DIR$/content/about/en/_index.md" />
         <option value="$PROJECT_DIR$/content/about/_index.md" />
         <option value="$PROJECT_DIR$/content/blog/food-loss.md" />
+        <option value="$PROJECT_DIR$/content/blog/world-trip-2018.md" />
+        <option value="$PROJECT_DIR$/content/en/netlify-cms.md" />
+        <option value="$PROJECT_DIR$/content/en/free-blog.md" />
       </list>
     </option>
   </component>
@@ -118,11 +104,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="en" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -136,21 +122,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="food-loss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -163,46 +141,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yoshicode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yoshicode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yoshicode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yoshicode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -774,12 +712,12 @@
       <workItem from="1521258545410" duration="1554000" />
       <workItem from="1521510829346" duration="219000" />
       <workItem from="1521546698095" duration="4834000" />
-      <workItem from="1522041733204" duration="11441000" />
+      <workItem from="1522041733204" duration="11784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27618000" />
+    <option name="totallyTimeSpent" value="27961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-216" width="1920" height="1080" extended-state="6" />
@@ -968,16 +906,6 @@
     <entry file="file://$PROJECT_DIR$/themes/cocoa/layouts/partials/header.html" />
     <entry file="file://$PROJECT_DIR$/content/blog/your-new-post.md" />
     <entry file="file://$PROJECT_DIR$/content/blogs/world-trip-2018.md" />
-    <entry file="file://$PROJECT_DIR$/content/blog/world-trip-2018.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1006,26 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/en/free-blog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/en/netlify-cms.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1088,9 +996,68 @@
     <entry file="file://$PROJECT_DIR$/content/blog/food-loss.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="366">
-            <caret line="148" column="25" lean-forward="false" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/free-blog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/world-trip-2018.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/en/netlify-cms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <folding>
+              <marker date="1522081093859" expanded="true" signature="1853:2338" ph="..." />
+              <marker date="1522081093859" expanded="true" signature="1860:2166" ph="..." />
+              <marker date="1522081093859" expanded="true" signature="2173:2330" ph="..." />
+              <marker date="1522081093859" expanded="true" signature="2367:2412" ph="backend: &lt;2 keys&gt;" />
+              <marker date="1522081093859" expanded="true" signature="2384:2395" ph="git-gateway" />
+              <marker date="1522081093859" expanded="true" signature="2406:2412" ph="master" />
+              <marker date="1522081093859" expanded="true" signature="2478:2496" ph="editorial_workflow" />
+              <marker date="1522081093859" expanded="true" signature="2533:2549" ph="images/uploads" />
+              <marker date="1522081093859" expanded="true" signature="2613:3229" ph="collections: &lt;1 item&gt;" />
+              <marker date="1522081093859" expanded="true" signature="2636:2642" ph="post" />
+              <marker date="1522081093859" expanded="true" signature="2701:2707" ph="Post" />
+              <marker date="1522081093859" expanded="true" signature="2737:2745" ph="_posts" />
+              <marker date="1522081093859" expanded="true" signature="2814:2818" ph="true" />
+              <marker date="1522081093859" expanded="true" signature="2886:2923" ph="{{year}}-…}-{{slug}}" />
+              <marker date="1522081093859" expanded="true" signature="2973:3229" ph="fields: &lt;3 items&gt;" />
+              <marker date="1522081093859" expanded="true" signature="3053:3061" ph="Layout" />
+              <marker date="1522081093859" expanded="true" signature="3069:3077" ph="layout" />
+              <marker date="1522081093859" expanded="true" signature="3087:3095" ph="hidden" />
+              <marker date="1522081093859" expanded="true" signature="3106:3112" ph="post" />
+              <marker date="1522081093859" expanded="true" signature="3130:3137" ph="Title" />
+              <marker date="1522081093859" expanded="true" signature="3145:3152" ph="title" />
+              <marker date="1522081093859" expanded="true" signature="3162:3170" ph="string" />
+              <marker date="1522081093859" expanded="true" signature="3188:3194" ph="Body" />
+              <marker date="1522081093859" expanded="true" signature="3202:3208" ph="body" />
+              <marker date="1522081093859" expanded="true" signature="3218:3228" ph="markdown" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>

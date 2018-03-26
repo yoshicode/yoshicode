@@ -2,6 +2,7 @@
 title: "フードロスベンチャーまとめ"
 date: 2018-03-26T14:22:32+09:00
 draft: false
+slug: food-loss
 ---
 
 先日 [ブラウンシュガーファースト](https://bs1stonline.com/) の金子くんにフードロスについて話してもらったのを期に、

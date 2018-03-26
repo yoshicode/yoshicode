@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yoshicode.com/about/en/</loc>
+    <lastmod>2018-03-26T21:39:58+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yoshicode.com/blog/%E3%83%95%E3%83%BC%E3%83%89%E3%83%AD%E3%82%B9%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E3%81%BE%E3%81%A8%E3%82%81/</loc>
+    <lastmod>2018-03-26T14:22:32+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yoshicode.com/en/netlify-cms/</loc>
     <lastmod>2018-03-20T20:54:34+09:00</lastmod>
   </url>
@@ -29,7 +39,7 @@
   
   <url>
     <loc>https://yoshicode.com/blog/</loc>
-    <lastmod>2018-03-17T12:52:48+09:00</lastmod>
+    <lastmod>2018-03-26T14:22:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -45,7 +55,7 @@
   
   <url>
     <loc>https://yoshicode.com/</loc>
-    <lastmod>2018-03-20T20:54:34+09:00</lastmod>
+    <lastmod>2018-03-26T14:22:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   

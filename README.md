@@ -1,4 +1,6 @@
 
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=U84I13s7Gf&Days=1&Design=1" /></a>
+
 #### Add Some Content
 
     $ hugo new blog/my-first-post.md

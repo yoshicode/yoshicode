@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+<section class="main">
+    <div class="container">
+        <div class="content">
+            <div class="tags_list">
+                <div class="tags_title"><span>{{ .Title }}</span></div>
+            </div>
+            <ul id="list">
+                {{ range .Data.Pages }}
+                <li class="post-item">
+                    <span class="meta"><time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>{{ .Date.Format .Site.Params.dateform }}</time></span>
+                    <a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+                </li>
+                {{ end }}
+            </ul>
+            <hr>
+            <a href="{{ .Site.BaseURL }}/tags" class="go_tag_list">Tags</a>
+        </div>
+    </div>
+</section>
+{{ partial "footer.html" . }}

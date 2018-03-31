@@ -3,6 +3,7 @@ title: "Build a CMS for free"
 date: 2018-03-20T20:54:34+09:00
 draft: false
 slug: netlify-cms
+tags: ["Dev"]
 ---
 
 As I posted a blog [Build a new blog for free with free SSL certificate.](https://yoshicode.com/en/free-blog/), 

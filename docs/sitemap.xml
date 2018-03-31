@@ -38,18 +38,38 @@
   </url>
   
   <url>
+    <loc>https://yoshicode.com/tags/agriculture/</loc>
+    <lastmod>2018-03-26T14:22:32+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yoshicode.com/blog/</loc>
     <lastmod>2018-03-26T14:22:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yoshicode.com/categories/</loc>
+    <loc>https://yoshicode.com/tags/dev/</loc>
+    <lastmod>2018-03-20T20:54:34+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yoshicode.com/tags/foodloss/</loc>
+    <lastmod>2018-03-26T14:22:32+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yoshicode.com/tags/</loc>
+    <lastmod>2018-03-26T14:22:32+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yoshicode.com/tags/trip/</loc>
+    <lastmod>2018-03-17T12:52:48+09:00</lastmod>
     <priority>0</priority>
   </url>
   

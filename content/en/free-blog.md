@@ -3,6 +3,7 @@ title: "Build a new blog for free with free SSL certificate."
 date: 2018-03-19T21:27:00+09:00
 draft: false
 slug: free-blog
+tags: ["Dev"]
 ---
 
 This blog was basically built with [Github page](https://pages.github.com/), but it has some problems.  
